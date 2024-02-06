@@ -1,0 +1,162 @@
+
+
+.signup-hero{
+    /* display: grid;
+    grid-template-columns: auto auto auto;   */
+    
+   
+    
+    display: flex;
+   
+    margin-top: 60px;
+   justify-content: space-around;
+  
+}
+.left-signup{
+    border-radius: 0px 4px 4px 0px;
+    background: #CBE4E8;
+    height: 786px;
+    
+} 
+ .signup-png{
+    height: 725px;
+   /* min-width: auto; */
+}
+.left-signup{
+    border-radius: 0px 4px 4px 0px;
+    background: #CBE4E8;
+    height: 725px;
+    width: 900px;
+}
+.createac-btn{
+    display: flex;
+    padding: 16px 122px;
+    height: 56px;
+    width: 371px;
+    align-items: center;
+    justify-content: center;
+    background: #db4444;
+    color: #fafafa;
+}
+.sign-google{
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+     display: flex; 
+  
+    
+   
+    gap: 10px;
+    height: 45px;
+    width: 371px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+
+} 
+.up-google{
+    font-family:' Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+.right-signup{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+    
+    
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+  
+}
+.signup-name{
+    border-top: #CBE4E8;
+    border-right: #CBE4E8;
+    border-left: #CBE4E8;
+    border-bottom: 0.5px solid #000;
+    outline: none;
+
+}
+.an-acc{
+    font-family: 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: 1.44px;
+    color: #000;
+}
+.enter-detail{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+.signup-name::placeholder{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    opacity: 0.4;
+}
+.createac-btn{
+    height: 56px;
+    width: 371px;
+    display: flex;
+    padding: 16px 122px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #db4444;
+    border: #CBE4E8;
+    cursor: pointer;
+}
+/* .right-bottom{
+
+} */
+.already{
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    gap: 20px;
+}
+.al-account{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.8;
+    color: #000;
+}
+.login-route{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+    color: #000;
+    text-decoration: none;
+   display: flex;
+   padding-top: 15px;
+}
+.login-link{
+    color: #000;
+
+}

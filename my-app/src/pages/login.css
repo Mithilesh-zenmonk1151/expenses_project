@@ -1,0 +1,74 @@
+.login-show{
+   
+    display: flex;
+    
+    justify-content: flex-end;
+   cursor: pointer;
+    
+    
+      
+     
+ } 
+ .login-page{
+     display: flex;
+     padding-top: 60px;
+     justify-content: space-around;
+     
+     
+ }
+ .right-login{
+     display: flex;
+     flex-direction: column;
+     
+ }
+ .exclusive-login{
+     font-family: 'Inter';
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 30px; 
+     letter-spacing: 1.44px;
+     color: #000000;
+ }
+ .deal-ent{
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     color: #000;
+ }
+ .login-forgot{
+     display: flex;
+     /* justify-content: center; */
+      align-items: center; 
+      justify-content: space-between;
+      padding-right: 10px;
+ 
+ }
+ .lo-btn{
+     display: flex;
+     padding: 16px 48px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 4px;
+     background: #db4444;
+     border:  white;
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     color: #fafafa;
+     cursor: pointer;
+ }
+ .forg-btn{
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     color: #db4444;
+     text-decoration: none;
+ }
