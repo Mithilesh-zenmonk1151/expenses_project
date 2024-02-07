@@ -1,15 +1,18 @@
 import React, {  useState } from "react";
-
+import {  useDispatch } from 'react-redux'
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import "./login.css";
 import axios from "axios";
+import { addUser } from "../slice/userDetailsSlice";
 
 function Login() {
   const [email,setEmail]= useState('');
 
   const [password, setPassword]= useState('');
   const navigate= useNavigate();
+
+ const dispatch = useDispatch();
 
   async function postData( data) {
     try {
@@ -22,14 +25,18 @@ function Login() {
      
       if(response.status===200){
         navigate("/userDashboard")
-        console.log("This data is after the login",response.data.user);
+        
+        alert("user successfully registered")
 
       }
       else{
+
+
         navigate("/userDashboard");
         alert("user type is not retailer");
       }
       
+      dispatch(addUser(response.data.user))
      
       alert("Login Successfully")
     } catch (error) {
@@ -43,6 +50,7 @@ function Login() {
 
   const handleOnSubmit= (event)=>{
     
+    event.preventDefault();
 
     //  if(ACCType==="retailer"){
     //   navigate("/retailer-dashboard")

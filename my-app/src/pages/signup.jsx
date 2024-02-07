@@ -14,7 +14,7 @@ export const Signup = () => {
   const [password, setPassword] = useState("Abc.@678");
   
   const [imag, setImag] = useState("");
-  const [selectAccountType, setSelectAccountType] = useState("");
+  
   function handleUploadImage(e) {
     console.log(e.target.files);
     setImag(URL.createObjectURL(e.target.files[0]));
@@ -60,7 +60,7 @@ export const Signup = () => {
       name: name,
       email: message,
       password: password,
-      accountType:selectAccountType,
+      
       image: imag,
     });
   };

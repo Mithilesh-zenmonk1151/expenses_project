@@ -31,6 +31,10 @@ const expenssesSchema = new mongoose.Schema({
   saving:{
     type:Number
   },
+  transactions:{
+    type:String,
+    
+  },
  
   
   
