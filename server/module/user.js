@@ -34,6 +34,12 @@ const userSchema= new mongoose.Schema({
         
         
     ],
+   
+
+    income:  {
+        type:String,
+    },
+
     image:  {
         type:String,
     },

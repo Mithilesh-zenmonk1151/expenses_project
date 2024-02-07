@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import Input from 'react-phone-number-input/input'
 
-// import UserAddModal from './UserAddModal';
+ import UserAddModal from './UserAddModal';
 
 function Update() {
   const [dateOfBirth, setDateOfBirth] = useState();
@@ -51,7 +51,7 @@ function Update() {
 
 
     <h2> Enter Expensses here</h2>
-    <button >Add</button>
+   
    
    
 
@@ -60,6 +60,7 @@ function Update() {
             </form>
             {/* {addButton && <UserAddModal  hide={handleModal()}
 />} */}
+<UserAddModal/>
         </div>
     )
 }

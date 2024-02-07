@@ -4,6 +4,7 @@ const dotenv= require("dotenv");
 const database= require("./config/database");
 const cookieParser = require("cookie-parser");
 const cors= require("cors");
+const expense= require("./router/expences");
 
 const userRoutes = require("./router/user");
 
@@ -35,6 +36,7 @@ app.use(
 	})
 );
 app.use("/api/v1/auth", userRoutes);
+app.use("/api/v1", expense);
 
 app.get("/", (req, res) => {
 	return res.json({
